@@ -30,7 +30,7 @@ if __name__ == "__main__":
     # n = driver.inCar()
     print("У " + driver.name + " (" + str(driver.age),
           " лет) есть " + car.brand + " (" + car.color,
-          " цвета). Она стоит " + str(car.price) + "$ ")
+          " цвета). Она стоит " + str(car.price) + "   $ ")
     if n == driver.atHome():
         print("Сейчас она " + car.stop())
     if n == driver.inCar():
